@@ -1683,6 +1683,7 @@
             option.text(network.name);
             if (network.name == "ONE - Harmony (path 60; old)") {
                 option.prop("selected", true);
+                network.onSelect();
             }
             DOM.phraseNetwork.append(option);
         }
